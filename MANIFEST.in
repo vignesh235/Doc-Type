@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ts_hotel *.css
+recursive-include ts_hotel *.csv
+recursive-include ts_hotel *.html
+recursive-include ts_hotel *.ico
+recursive-include ts_hotel *.js
+recursive-include ts_hotel *.json
+recursive-include ts_hotel *.md
+recursive-include ts_hotel *.png
+recursive-include ts_hotel *.py
+recursive-include ts_hotel *.svg
+recursive-include ts_hotel *.txt
+recursive-exclude ts_hotel *.pyc
